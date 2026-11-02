@@ -11,8 +11,10 @@ import { defineConfig, loadEnv } from 'vite-plus'
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
+  const basePath = env.VITE_BASE_PATH?.replace(/\/+$/u, '')
 
   return {
+    base: basePath ? `${basePath}/` : '/',
     staged: { '*': 'vp check --fix' },
     run: {
       cache: {

@@ -1,7 +1,9 @@
+/* oxlint-disable react/jsx-no-literals */
+
 import { useTranslation } from 'react-i18next'
 
 import LanguageSwitch from '@/components/i18n/LanguageSwitch'
-import DitherVeil from '@/components/react-bits/DitherVeil'
+import ElectricLogo from '@/components/react-bits/ElectricLogo'
 
 import ContactSection from './ContactSection'
 
@@ -152,19 +154,21 @@ const Landing = () => {
 
           <div className="portrait-scene" aria-label={t('home.portrait')}>
             <div className="portrait-frame">
-              <DitherVeil
-                src="/images/head-silhouette.svg"
+              <ElectricLogo
+                src="/images/atom-logo.svg"
+                color="#f2d9ff"
+                glowColor="#ad6dff"
+                scale={0.8}
+                intensity={1.25}
+                glow={1.35}
+                thickness={1.5}
+                strands={4}
+                bend={0.6}
+                crackle={1.5}
+                arcs={2}
+                speed={1.5}
+                theme="dark"
                 className="portrait-dither"
-                pattern="noise"
-                pixelSize={2}
-                levels={2}
-                inkColor="#080b18"
-                paperColor="#f7f1df"
-                revealRadius={175}
-                softness={0.65}
-                linger={0.6}
-                rimColor="#fa3b0b"
-                rim={0.1}
               />
             </div>
             <span className="est-stamp">{COPY.established}</span>
@@ -297,7 +301,7 @@ const Landing = () => {
         </header>
         <div className="stack-heading">
           <h1 className="stack-title">
-            <span>{'03'}</span>
+            <span>03</span>
             <i aria-hidden="true">{COPY.slashes}</i>
             <span>{COPY.stackTitle}</span>
           </h1>
@@ -374,7 +378,7 @@ const Landing = () => {
         </header>
         <div className="projects-heading">
           <h1>
-            <span>{'04'}</span>
+            <span>04</span>
             <i aria-hidden="true">{COPY.slashes}</i>
             <span>{COPY.projects}</span>
           </h1>
@@ -394,17 +398,17 @@ const Landing = () => {
                 <i />
                 <span />
               </div>
-              <span className="bot-mark">{'✈'}</span>
+              <span className="bot-mark">✈</span>
             </div>
             <h2>
-              <span>{'01'}</span>
+              <span>01</span>
               <i>{' / '}</i>
               {COPY.projectOne}
             </h2>
             <div className="project-tags">
-              <span>{'Python'}</span>
-              <span>{'API'}</span>
-              <span>{'Data'}</span>
+              <span>Python</span>
+              <span>API</span>
+              <span>Data</span>
             </div>
             <p>{COPY.projectOneDescription}</p>
             <a className="project-button" href="#projects">
@@ -414,24 +418,24 @@ const Landing = () => {
           </article>
           <article className="project-card ai-project">
             <div className="project-art ai-art" aria-hidden="true">
-              <span className="math-formula">{'f(x) = ∑ wᵢxᵢ + b'}</span>
+              <span className="math-formula">f(x) = ∑ wᵢxᵢ + b</span>
               <div className="math-orb">
                 <i />
                 <i />
                 <i />
                 <i />
               </div>
-              <span className="math-nodes">{'◈ · · · ◈'}</span>
+              <span className="math-nodes">◈ · · · ◈</span>
             </div>
             <h2>
-              <span>{'02'}</span>
+              <span>02</span>
               <i>{' / '}</i>
               {COPY.projectTwo}
             </h2>
             <div className="project-tags">
-              <span>{'PyTorch'}</span>
-              <span>{'ML'}</span>
-              <span>{'Math'}</span>
+              <span>PyTorch</span>
+              <span>ML</span>
+              <span>Math</span>
             </div>
             <p>{COPY.projectTwoDescription}</p>
             <a className="project-button" href="#projects">
@@ -458,14 +462,14 @@ const Landing = () => {
               </div>
             </div>
             <h2>
-              <span>{'03'}</span>
+              <span>03</span>
               <i>{' / '}</i>
               {COPY.projectThree}
             </h2>
             <div className="project-tags">
-              <span>{'React'}</span>
-              <span>{'Node.js'}</span>
-              <span>{'JS'}</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span>JS</span>
             </div>
             <p>{COPY.projectThreeDescription}</p>
             <a className="project-button" href="#projects">

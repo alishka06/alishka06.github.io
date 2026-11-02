@@ -1,3 +1,5 @@
+/* oxlint-disable react/jsx-no-literals, react/jsx-no-comment-textnodes */
+
 import { useTranslation } from 'react-i18next'
 
 import LanguageSwitch from '@/components/i18n/LanguageSwitch'
@@ -13,7 +15,7 @@ const ContactSection = () => {
     >
       <header className="site-header">
         <a className="wordmark" href="#home" aria-label={t('nav.homeLink')}>
-          {'BAKYT ALI'}
+          BAKYT ALI
         </a>
         <nav className="main-nav" aria-label={t('nav.primary')}>
           <a href="#home">{t('nav.home')}</a>
@@ -30,8 +32,8 @@ const ContactSection = () => {
       <div className="contact-layout">
         <div className="contact-copy">
           <h1 className="contact-title">
-            <span className="contact-number">{'05'}</span>
-            <i aria-hidden="true">{'//'}</i>
+            <span className="contact-number">05</span>
+            <i aria-hidden="true">//</i>
             <span>{t('contact.title')}</span>
           </h1>
           <p className="contact-question">
@@ -57,19 +59,19 @@ const ContactSection = () => {
           <div className="social-links">
             <a href="#contacts">
               {t('contact.social.github')}
-              <span>{'↗'}</span>
+              <span>↗</span>
             </a>
             <a href="#contacts">
               {t('contact.social.instagram')}
-              <span>{'↗'}</span>
+              <span>↗</span>
             </a>
             <a href="#contacts">
               {t('contact.social.telegram')}
-              <span>{'↗'}</span>
+              <span>↗</span>
             </a>
             <a href="#contacts">
               {t('contact.social.email')}
-              <span>{'↗'}</span>
+              <span>↗</span>
             </a>
           </div>
         </div>
@@ -90,7 +92,7 @@ const ContactSection = () => {
               <textarea placeholder={t('contact.message')} />
             </label>
             <button type="button">
-              {t('contact.send')} <span>{'↗'}</span>
+              {t('contact.send')} <span>↗</span>
             </button>
           </form>
         </div>
@@ -98,9 +100,7 @@ const ContactSection = () => {
         <div className="contact-side-notes" aria-hidden="true">
           <span className="contact-location">{t('contact.location')}</span>
           <span className="contact-est">{t('home.established')}</span>
-          <span className="contact-work">
-            {t('contact.work')} {'↗'}
-          </span>
+          <span className="contact-work">{t('contact.work')} ↗</span>
         </div>
         <div className="contact-grid" aria-hidden="true" />
         <div className="contact-bottom-grid" aria-hidden="true" />
@@ -112,7 +112,7 @@ const ContactSection = () => {
       <footer className="contact-footer">
         <span>{t('common.copyright')}</span>
         <a href="#home">
-          {t('contact.backTop')} <span>{'↗'}</span>
+          {t('contact.backTop')} <span>↗</span>
         </a>
         <span className="contact-footer-arrows" aria-hidden="true">
           {t('common.arrowDoubles')}
