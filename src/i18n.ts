@@ -19,6 +19,10 @@ const initializeI18n = async () => {
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
+      detection: {
+        order: ['localStorage', 'navigator'],
+        caches: ['localStorage'],
+      },
       backend: {
         loadPath: (lngs: string[], namespacesToLoad: string[]) => {
           const [lng] = lngs
@@ -30,9 +34,9 @@ const initializeI18n = async () => {
 
       fallbackLng: languages[0],
 
-      ns: ['common'],
-      defaultNS: 'common',
-      fallbackNS: 'common',
+      ns: ['common', 'portfolio'],
+      defaultNS: 'portfolio',
+      fallbackNS: ['portfolio', 'common'],
 
       supportedLngs: languages,
 

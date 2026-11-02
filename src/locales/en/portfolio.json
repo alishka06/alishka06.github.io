@@ -1,0 +1,90 @@
+{
+  "languageSelector": "Language",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "contacts": "Contacts",
+    "primary": "Primary navigation",
+    "homeLink": "Bakyt Ali home"
+  },
+  "home": {
+    "headlineFirst": "Creative developer.",
+    "headlineSecond": "Thinker. Builder.",
+    "index": "01 / Home",
+    "description": "Based in Kazakhstan, I build digital experiences, analyze data, and bridge mathematics with code.",
+    "portrait": "Portrait collage",
+    "action": "Let’s work",
+    "established": "Est. 2026",
+    "lab": "Creative lab",
+    "east": "East",
+    "kazakhstan": "Kazakhstan",
+    "ticker": "Build · Design · Code · Analyze ›"
+  },
+  "common": {
+    "copyright": "Bakyt Ali © 2026",
+    "arrowUp": "↗",
+    "arrowDown": "↓",
+    "arrowDoubles": "↓↓",
+    "slashes": "//",
+    "location": "Kazakhstan",
+    "hello": "Hello!"
+  },
+  "about": {
+    "heading": "About me",
+    "intro": "Hello, I’m Bakyt Ali—a university student with a strong focus on programming, data analysis, and applied mathematics.",
+    "study": "I study at East Kazakhstan Technical University in Oskemen, Kazakhstan, where I work with machine learning, simulation modeling, and optimization methods.",
+    "growth": "Alongside my studies, I’m growing as a developer, building projects that combine technical precision with clean, thoughtful design.",
+    "scroll": "Scroll to stack",
+    "equation": "∑ x² + ∫ f(x) dx",
+    "index": "02"
+  },
+  "stack": {
+    "title": "My stack.",
+    "lead": "A comprehensive toolkit of languages, frameworks & tools",
+    "languages": "Languages",
+    "data": "Data & machine learning",
+    "web": "Web & backend",
+    "tools": "Tools & DevOps",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
+    "scroll": "Scroll to projects"
+  },
+  "projects": {
+    "all": "All",
+    "filterAi": "AI & Data",
+    "filterWeb": "Web Dev",
+    "filterBots": "Bots",
+    "title": "Selected work & experiments",
+    "one": "Telegram bot",
+    "two": "AI model & math",
+    "three": "Web platform",
+    "oneDescription": "Telegram bot for automation, data analysis, and notifications.",
+    "twoDescription": "Mathematical modeling and forecasting based on machine learning.",
+    "threeDescription": "Interactive web application for data visualization.",
+    "view": "View project",
+    "click": "Click here!",
+    "new": "New!",
+    "scroll": "Scroll to contacts"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "idea": "Have an idea?",
+    "talk": "Let’s talk!",
+    "reach": "Reach me directly",
+    "name": "Your name",
+    "emailPlaceholder": "Your Email / Telegram",
+    "message": "Your message...",
+    "send": "Send message",
+    "work": "Let’s work",
+    "location": "Oskemen, Kazakhstan",
+    "backTop": "Go back to top",
+    "social": {
+      "github": "GitHub",
+      "instagram": "Instagram",
+      "telegram": "Telegram",
+      "email": "Email"
+    }
+  }
+}
